@@ -10,29 +10,150 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@mipmap/ic_launcher"/>
+        android:layout_height="0dp"
+        android:src="@drawable/logo"
+        android:layout_weight="1"/>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <Spinner
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-        </Spinner>
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
         <EditText
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="Ubicacion"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:padding="5dp"
+            android:background="@drawable/button_perfil"
+            android:layout_marginRight="10dp">
+        </EditText>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:hint="Fecha, hora"
+            android:textColorHint="#ffffff"
             android:textColor="#ffffff"
-            android:background="@drawable/button_perfil"/>
+            android:padding="5dp"
+            android:background="@drawable/button_perfil"
+            android:layout_marginLeft="10dp"/>
     </LinearLayout>
-    <RelativeLayout
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
 
-    </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp">
 
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="6"
+                android:layout_height="wrap_content"
+                android:background="@drawable/electronica"/>
 
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+            </RelativeLayout>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="6"
+                android:layout_height="wrap_content"
+                android:background="@drawable/jazz"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="6"
+                android:layout_height="wrap_content"
+                android:background="@drawable/criollo"/>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+            </RelativeLayout>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="6"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rock"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/footBusqueda"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="B"
+            android:textColor="#ffffff"
+            android:background="#000000"/>
+        <Button
+            android:id="@+id/footCalendar"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="B"
+            android:textColor="#ffffff"
+            android:background="#000000"/>
+        <Button
+            android:id="@+id/footPerfil"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="B"
+            android:textColor="#ffffff"
+            android:background="#000000"/>
+        <Button
+            android:id="@+id/footFavoritos"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="B"
+            android:textColor="#ffffff"
+            android:background="#000000"/>
+        <Button
+            android:id="@+id/footMusica"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="B"
+            android:textColor="#ffffff"
+            android:background="#000000"/>
+
+    </LinearLayout>
 
 </LinearLayout>

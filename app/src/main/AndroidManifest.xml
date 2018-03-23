@@ -19,7 +19,9 @@
         <activity android:name=".Perfil" />
         <activity android:name=".Notificaciones" />
         <activity android:name=".Credito" />
-        <activity android:name=".Generos"></activity>
+        <activity android:name=".Generos" />
+        <activity android:name=".IniciarSesion" />
+        <activity android:name=".Registro"></activity>
     </application>
 
 </manifest>
